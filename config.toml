@@ -1,0 +1,18 @@
+baseURL = "https://fnnnncat.github.io/"
+languageCode = "zh-cn"
+title = "fnncat"
+subtitles = "aaa"
+theme = "hugo-primer"
+copyright = "© Copyright fnncat"
+paginate = 15
+
+# config.toml
+hasCJKLanguage = true
+
+# Code pen
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+# shareTo = ["Twitter", "Hatena", "Facebook", "Pocket"]
+showFooterCredits = true
