@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>笔记 on fnncat</title>
+    <link>https://fnnnncat.github.io/categories/%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 笔记 on fnncat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© Copyright fnncat</copyright>
+    <lastBuildDate>Sun, 15 Mar 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://fnnnncat.github.io/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>安装idea并启动maven项目</title>
+      <link>https://fnnnncat.github.io/posts/test/%E5%AE%89%E8%A3%85idea%E5%B9%B6%E5%90%AF%E5%8A%A8maven%E9%A1%B9%E7%9B%AE/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://fnnnncat.github.io/posts/test/%E5%AE%89%E8%A3%85idea%E5%B9%B6%E5%90%AF%E5%8A%A8maven%E9%A1%B9%E7%9B%AE/</guid>
+      <description>安装idea并启动maven项目 手上需要写一个后端为maven工程的项目，没有测试环境，为了方便只能启本地的后台端口，于是准备装下idea，</description>
+    </item>
+    
+    <item>
+      <title>对象及数组的深拷贝及浅拷贝</title>
+      <link>https://fnnnncat.github.io/posts/test/%E5%AF%B9%E8%B1%A1%E6%95%B0%E7%BB%84%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%8F%8A%E6%B5%85%E6%8B%B7%E8%B4%9D/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://fnnnncat.github.io/posts/test/%E5%AF%B9%E8%B1%A1%E6%95%B0%E7%BB%84%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%8F%8A%E6%B5%85%E6%8B%B7%E8%B4%9D/</guid>
+      <description>对象及数组的深拷贝及浅拷贝 前言 昨天做leetcode一道有关数组操作的题，又一次遇到到了深拷贝及浅拷贝的知识点 对象、数组 对象 是一个存储器地址</description>
+    </item>
+    
+  </channel>
+</rss>

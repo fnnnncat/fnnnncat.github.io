@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      
+  对象及数组的深拷贝及浅拷贝 &ndash; fnncat
+
+    </title>
+    
+    
+    <meta name="description" property="og:description" content="对象及数组的深拷贝及浅拷贝 前言 昨天做leetcode一道有关数组操作的题，又一次遇到到了深拷贝及浅拷贝的知识点 对象、数组 对象 是一个存储器地址|">
+    
+
+    <meta name="apple-mobile-web-app-title" content="fnncat">
+    
+    
+    
+    
+
+
+    <link rel="stylesheet" href="/assets/syntax.css">
+    <link rel="stylesheet" href="/assets/primer-build.css">
+    <link rel="stylesheet" href="/assets/style.css">
+  </head>
+
+
+  <body class="bg-gray">
+    <div id="holy" class="container-lg bg-white h-100">
+
+      <div id="header" class="px-1 bg-white">
+        <nav class="UnderlineNav UnderlineNav--right px-2">
+  <a class="UnderlineNav-actions muted-link h2" href="https://fnnnncat.github.io/">
+    fnncat
+  </a>
+
+  
+  
+</nav>
+
+      </div>
+
+      <div role="main" id="main" class="holy-main markdown-body px-4 bg-white">
+        
+
+<div class="Subhead">
+  <div class="Subhead-heading">
+    <div class="h1 mt-3 mb-1">对象及数组的深拷贝及浅拷贝</div>
+  </div>
+  <div class="Subhead-description">
+    
+
+
+<a href='/categories/%E7%AC%94%E8%AE%B0' class="muted-link">
+  <span class="Label Label--gray-darker">笔记</span>
+</a>
+
+
+
+<a href='/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95' class="muted-link">
+  <span class="Label Label--gray">学习记录</span>
+</a>
+
+
+
+    
+    <div class="float-md-right">
+      <span title="Lastmod: 2020-03-15. Published at: 2020-03-15.">
+        
+          Published: 2020-03-15
+        
+      </span>
+    </div>
+    
+  </div>
+</div>
+<article>
+  
+  <section class="pb-6 mb-3 border-bottom">
+    <h2 id="对象及数组的深拷贝及浅拷贝">对象及数组的深拷贝及浅拷贝</h2>
+<h3 id="前言">前言</h3>
+<p>昨天做leetcode一道有关数组操作的题，又一次遇到到了深拷贝及浅拷贝的知识点</p>
+<h3 id="对象数组">对象、数组</h3>
+<p><strong>对象</strong> 是一个存储器地址，其中拥有值，这个地址可能有标识符指向此处。对象具有唯一的标识符，对象可以是某一个类的实例</p>
+<p><strong>数组</strong> 是有序的元素序列</p>
+<h3 id="堆栈">堆、栈</h3>
+<p>js的基本类型是存储在栈中的，每种类型的数据占用的内存空间的大小是确定的，并由系统自动分配和自动释放。这样带来的好处就是，内存可以及时得到回收，相对于堆来说   ，更加容易管理内存空间。
+而像对象、数组则是存在堆当中。而堆，基本的数据结构是没有这个概念的，由开发人员分配和释放， 若开发人员不释放，程序结束时由 OS 回收，分配方式类似于链表，但并不是队列，可以看做是一棵树的数组对象。</p>
+<h3 id="赋值浅拷贝深拷贝">赋值、浅拷贝、深拷贝</h3>
+<p>浅拷贝只复制指向某个对象的指针，而不复制对象本身，新旧对象还是共享同一块内存。但深拷贝会另外创造一个一模一样的对象，新对象跟原对象不共享内存，修改新对象不会改到原对象。
+浅拷贝是按位拷贝对象，它会创建一个新对象，这个对象有着原始对象属性值的一份精确拷贝。如果属性是基本类型，拷贝的就是基本类型的值；如果属性是内存地址（引用类型），拷贝的就是内存地址 ，因此如果其中一个对象改变了这个地址，就会影响到另一个对象。即默认拷贝构造函数只是对对象进行浅拷贝复制(逐个成员依次拷贝)，即只复制对象空间而不复制资源。
+深拷贝 JSON.parse(JSON.stringify())</p>
+
+  </section>
+
+  <section>
+    
+      
+    
+  </section>
+</article>
+
+      </div>
+
+      <div id="side" class="pr-1 bg-white">
+        <aside class="pr-3">
+          
+  
+    <div id="toc" class="Box Box--blue mb-3">
+      <b>对象及数组的深拷贝及浅拷贝</b><nav id="TableOfContents">
+  <ul>
+    <li><a href="#对象及数组的深拷贝及浅拷贝">对象及数组的深拷贝及浅拷贝</a>
+      <ul>
+        <li><a href="#前言">前言</a></li>
+        <li><a href="#对象数组">对象、数组</a></li>
+        <li><a href="#堆栈">堆、栈</a></li>
+        <li><a href="#赋值浅拷贝深拷贝">赋值、浅拷贝、深拷贝</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+  
+
+  
+    <div>
+      
+    </div>
+  
+
+        </aside>
+      </div>
+
+      <div id="footer" class="pt-2 pb-3 bg-white text-center">
+        
+
+  <span class="text-small text-gray">
+    © Copyright fnncat &middot; 
+
+    Powered by the
+    <a href="https://github.com/qqhann/hugo-primer" class="link-gray-dark">Hugo-Primer</a> theme for
+    <a href="https://gohugo.io" class="link-gray-dark">Hugo</a>.
+  </span>
+
+
+      </div>
+    </div>
+
+    
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });</script>
+    
+  </body>
+</html>

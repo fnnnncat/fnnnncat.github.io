@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      
+  安装idea并启动maven项目 &ndash; fnncat
+
+    </title>
+    
+    
+    <meta name="description" property="og:description" content="安装idea并启动maven项目 手上需要写一个后端为maven工程的项目，没有测试环境，为了方便只能启本地的后台端口，于是准备装下idea，|">
+    
+
+    <meta name="apple-mobile-web-app-title" content="fnncat">
+    
+    
+    
+    
+
+
+    <link rel="stylesheet" href="/assets/syntax.css">
+    <link rel="stylesheet" href="/assets/primer-build.css">
+    <link rel="stylesheet" href="/assets/style.css">
+  </head>
+
+
+  <body class="bg-gray">
+    <div id="holy" class="container-lg bg-white h-100">
+
+      <div id="header" class="px-1 bg-white">
+        <nav class="UnderlineNav UnderlineNav--right px-2">
+  <a class="UnderlineNav-actions muted-link h2" href="https://fnnnncat.github.io/">
+    fnncat
+  </a>
+
+  
+  
+</nav>
+
+      </div>
+
+      <div role="main" id="main" class="holy-main markdown-body px-4 bg-white">
+        
+
+<div class="Subhead">
+  <div class="Subhead-heading">
+    <div class="h1 mt-3 mb-1">安装idea并启动maven项目</div>
+  </div>
+  <div class="Subhead-description">
+    
+
+
+<a href='/categories/%E7%AC%94%E8%AE%B0' class="muted-link">
+  <span class="Label Label--gray-darker">笔记</span>
+</a>
+
+
+
+<a href='/tags/%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BD%95' class="muted-link">
+  <span class="Label Label--gray">工作记录</span>
+</a>
+
+
+
+    
+    <div class="float-md-right">
+      <span title="Lastmod: 2020-03-15. Published at: 2020-03-15.">
+        
+          Published: 2020-03-15
+        
+      </span>
+    </div>
+    
+  </div>
+</div>
+<article>
+  
+  <section class="pb-6 mb-3 border-bottom">
+    <h2 id="安装idea并启动maven项目">安装idea并启动maven项目</h2>
+<p>手上需要写一个后端为maven工程的项目，没有测试环境，为了方便只能启本地的后台端口，于是准备装下idea，启动下后台进行联调</p>
+<h3 id="maven-梗概">maven 梗概</h3>
+<p>首先，maven是什么呢？在我看来和前端的包管理概念类似，maven在java中相当于npm在js中的地位，其中的pom.xml与package.json作用类似，但pom.xml是扁平化的管理，不是如npm一样的嵌套式管理（现在的yarn也是扁平化的管理）但是java和js的构建有着很大的区别,maven出现的要比npm早，也大的多，定制化的插件庞大，又是maven会用来管理非Java项目。</p>
+<h3 id="idea--安装">idea  安装</h3>
+<p>   idea安装包下载，注册，启动
+（create associations 是选择后带有选项后缀的文件，都将使用该软件打开）</p>
+<h3 id="jdk-安装">jdk 安装</h3>
+<p>正常安装</p>
+<h3 id="导入maven项目">导入maven项目</h3>
+<p>maven的仓库会分为本地仓库和远程仓库，远程仓库会进一步分为中央仓库、私服和其他仓库，因为在云桌面内网开发，所以配置了本地仓库和私服。</p>
+<ol>
+<li>
+<p>配置setting.xml文件。
+默认maven会创建，一个.m2的文件夹，其中含有setting.xml</p>
+<ul>
+<li>默认jdk使用java8</li>
+<li>配置私服和本地仓库地址</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">&lt;</span><span class="n">settings</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">localRepository</span><span class="o">&gt;</span><span class="n">D</span><span class="p">:</span>\<span class="mi">64</span>\<span class="n">m2</span>\<span class="n">repository</span><span class="o">&lt;/</span><span class="n">localRepository</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="n">settings</span><span class="o">&gt;</span>
+</code></pre></div></li>
+<li>
+<p>创建repository文件夹，根据本地仓库地址创建文件夹</p>
+</li>
+<li>
+<p>import 项目文件夹，选择jdk，选择项目右键‘maven&ndash;&gt;reimport’</p>
+</li>
+<li>
+<p>file&ndash;&gt;build&ndash;&gt;maven 配置maven/setting/repository的地址</p>
+</li>
+<li>
+<p>配置run configure:
+application &ndash;&gt; main class&ndash;&gt;vmoptions 加上当前运行参数</p>
+</li>
+<li>
+<p>结束，正常启动</p>
+</li>
+</ol>
+
+  </section>
+
+  <section>
+    
+      
+    
+  </section>
+</article>
+
+      </div>
+
+      <div id="side" class="pr-1 bg-white">
+        <aside class="pr-3">
+          
+  
+    <div id="toc" class="Box Box--blue mb-3">
+      <b>安装idea并启动maven项目</b><nav id="TableOfContents">
+  <ul>
+    <li><a href="#安装idea并启动maven项目">安装idea并启动maven项目</a>
+      <ul>
+        <li><a href="#maven-梗概">maven 梗概</a></li>
+        <li><a href="#idea--安装">idea  安装</a></li>
+        <li><a href="#jdk-安装">jdk 安装</a></li>
+        <li><a href="#导入maven项目">导入maven项目</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+  
+
+  
+    <div>
+      
+    </div>
+  
+
+        </aside>
+      </div>
+
+      <div id="footer" class="pt-2 pb-3 bg-white text-center">
+        
+
+  <span class="text-small text-gray">
+    © Copyright fnncat &middot; 
+
+    Powered by the
+    <a href="https://github.com/qqhann/hugo-primer" class="link-gray-dark">Hugo-Primer</a> theme for
+    <a href="https://gohugo.io" class="link-gray-dark">Hugo</a>.
+  </span>
+
+
+      </div>
+    </div>
+
+    
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });</script>
+    
+  </body>
+</html>

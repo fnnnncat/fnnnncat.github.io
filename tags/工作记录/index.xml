@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工作记录 on fnncat</title>
+    <link>https://fnnnncat.github.io/tags/%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BD%95/</link>
+    <description>Recent content in 工作记录 on fnncat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© Copyright fnncat</copyright>
+    <lastBuildDate>Sun, 15 Mar 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://fnnnncat.github.io/tags/%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>安装idea并启动maven项目</title>
+      <link>https://fnnnncat.github.io/posts/test/%E5%AE%89%E8%A3%85idea%E5%B9%B6%E5%90%AF%E5%8A%A8maven%E9%A1%B9%E7%9B%AE/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://fnnnncat.github.io/posts/test/%E5%AE%89%E8%A3%85idea%E5%B9%B6%E5%90%AF%E5%8A%A8maven%E9%A1%B9%E7%9B%AE/</guid>
+      <description>安装idea并启动maven项目 手上需要写一个后端为maven工程的项目，没有测试环境，为了方便只能启本地的后台端口，于是准备装下idea，</description>
+    </item>
+    
+  </channel>
+</rss>

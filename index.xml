@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fnncat</title>
+    <link>https://fnnnncat.github.io/</link>
+    <description>Recent content on fnncat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© Copyright fnncat</copyright>
+    <lastBuildDate>Sun, 15 Mar 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://fnnnncat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>安装idea并启动maven项目</title>
+      <link>https://fnnnncat.github.io/posts/test/%E5%AE%89%E8%A3%85idea%E5%B9%B6%E5%90%AF%E5%8A%A8maven%E9%A1%B9%E7%9B%AE/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://fnnnncat.github.io/posts/test/%E5%AE%89%E8%A3%85idea%E5%B9%B6%E5%90%AF%E5%8A%A8maven%E9%A1%B9%E7%9B%AE/</guid>
+      <description>安装idea并启动maven项目 手上需要写一个后端为maven工程的项目，没有测试环境，为了方便只能启本地的后台端口，于是准备装下idea，</description>
+    </item>
+    
+    <item>
+      <title>对象及数组的深拷贝及浅拷贝</title>
+      <link>https://fnnnncat.github.io/posts/test/%E5%AF%B9%E8%B1%A1%E6%95%B0%E7%BB%84%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%8F%8A%E6%B5%85%E6%8B%B7%E8%B4%9D/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://fnnnncat.github.io/posts/test/%E5%AF%B9%E8%B1%A1%E6%95%B0%E7%BB%84%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%8F%8A%E6%B5%85%E6%8B%B7%E8%B4%9D/</guid>
+      <description>对象及数组的深拷贝及浅拷贝 前言 昨天做leetcode一道有关数组操作的题，又一次遇到到了深拷贝及浅拷贝的知识点 对象、数组 对象 是一个存储器地址</description>
+    </item>
+    
+    <item>
+      <title>2020年，花椒相伴，有滋有味</title>
+      <link>https://fnnnncat.github.io/posts/test/2020%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://fnnnncat.github.io/posts/test/2020%E6%80%BB%E7%BB%93/</guid>
+      <description>2020，你好，我继续写博了 其实，随着经历经验增长累计，长期的计划便不想再写。 两年前，写总结心得时，我写 随遇而安 。现在，如此。 写在前面： 为什</description>
+    </item>
+    
+    <item>
+      <title>Test2</title>
+      <link>https://fnnnncat.github.io/posts/ad/ad/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://fnnnncat.github.io/posts/ad/ad/</guid>
+      <description>Hello World test 啦啦22</description>
+    </item>
+    
+    <item>
+      <title>Test2</title>
+      <link>https://fnnnncat.github.io/posts/test/test2/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://fnnnncat.github.io/posts/test/test2/</guid>
+      <description>Hello World test 啦啦22ssssss</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://fnnnncat.github.io/posts/test/javascript%E4%B8%AD%E7%9A%84bind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fnnnncat.github.io/posts/test/javascript%E4%B8%AD%E7%9A%84bind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://fnnnncat.github.io/posts/test/react-render%E4%B8%AD%E7%9A%84%E6%89%A7%E8%A1%8C%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fnnnncat.github.io/posts/test/react-render%E4%B8%AD%E7%9A%84%E6%89%A7%E8%A1%8C%E5%87%BD%E6%95%B0/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
